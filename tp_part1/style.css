@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+.modif {
+    width: 500px;
+    height: 300px;
+    border: 1px black solid;
+}
+
+.text {
+    color: white;
+}
+
+
+
+.item {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.petit {
+    width: 30%;
+    margin-right: 10px;
+    
+}
+
+.gros {
+    width: calc(90% + 20px) ;
+}
+
+.item > button {
+    border-radius: 5px;
+    height: 20%;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.grey {
+    background-color: gray;
+}
+
+.black {
+    background-color: black;
+}
+
+.rose {
+    background-color: rgb(242, 90, 145);
+}
+
+.orange {
+    background-color:orange;
+}
+
+.yellow {
+    background-color:yellow;
+}
+
+.turquoise {
+    background-color:turquoise;
+}
+
+.violet {
+    background-color:violet;
+}
+
+
+.lab_border {
+   
+}
+
+#border {
+    display: block;
+    width: 400px;
+}
+
+.section2 {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 500px;
+    height: 200px;
+}
+
+.hello {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.moyen {
+    border-radius: 5px;
+    height: 20%;
+    width: 30% ;
+
+}
+
+.inp_txt {
+    width: 65% ;
+    height: 20%;
+    margin-right: 2%;
+
+}
